@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  /* I'll give you this one for free lol */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px;
+}
+
+.inline_second {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+
+.icon_control {
+  display: flex;
+  justify-content: left;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.close {
+  display: flex;
+  align-items: top;
+  justify-content: right;
+}
+
+.close-button {
+  position: relative;
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  border: 1px solid #eee;
+  padding: 0px;
+  margin: 8px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+button.continue {
+  display: flex;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  margin: 8px;
+  margin-right: 0;
+  justify-content: center;
+}
+
+button.cancel {
+  display: flex;
+  background: white; 
+  border: 1px solid #ddd;
+  color: royalblue;
+  margin: 8px;
+
+  justify-content: center;
+}

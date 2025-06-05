@@ -1,0 +1,22 @@
+/* styles.css */
+.odd,
+.odd_modified {
+  background-color: palevioletred;
+  color: black;
+  font-family: Verdana, 'Gill Sans', sans-serif;
+}
+.odd {
+    font-size: 20px;    
+}
+.odd_modified {
+  font-size: 32px;
+}
+#num2 {
+  font-size: 36px;
+  color: blue;
+}
+#num4 {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: green;
+}

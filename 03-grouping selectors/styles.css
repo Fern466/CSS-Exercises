@@ -1,0 +1,13 @@
+/* styles.css */
+.button,
+.button_modified {
+  font-size: 28px;
+  font-family: Helevetica, 'Times New Roman', sans-serif;
+}
+.button {
+  background-color: black;   
+  color: white; 
+}
+.button_modified {
+  background-color: yellow;
+}
